@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T12:42:56 PST" name="Suite" finished-at="2026-04-29T12:43:22 PST" duration-ms="25826">
+    <groups>
+      <group name="Regression">
+        <method signature="Testing.testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" name="testCase1" class="testCases.Testing"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2026-04-29T12:42:56 PST" name="Test" finished-at="2026-04-29T12:43:22 PST" duration-ms="25826">
+      <class name="testCases.Testing">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:42:56 PST" name="launchBrowser" finished-at="2026-04-29T12:43:04 PST" duration-ms="7990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:04 PST" name="testCase1" data-provider="getDiscountData" finished-at="2026-04-29T12:43:07 PST" duration-ms="2246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Family and Friends]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:07 PST" name="tearDown" finished-at="2026-04-29T12:43:07 PST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:07 PST" name="launchBrowser" finished-at="2026-04-29T12:43:08 PST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:08 PST" name="testCase1" data-provider="getDiscountData" finished-at="2026-04-29T12:43:10 PST" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Senior Citizen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:10 PST" name="tearDown" finished-at="2026-04-29T12:43:11 PST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:11 PST" name="launchBrowser" finished-at="2026-04-29T12:43:12 PST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:12 PST" name="testCase1" data-provider="getDiscountData" finished-at="2026-04-29T12:43:14 PST" duration-ms="2027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indian Armed Forces]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:14 PST" name="tearDown" finished-at="2026-04-29T12:43:14 PST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:14 PST" name="launchBrowser" finished-at="2026-04-29T12:43:16 PST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:16 PST" name="testCase1" data-provider="getDiscountData" finished-at="2026-04-29T12:43:18 PST" duration-ms="2184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:18 PST" name="tearDown" finished-at="2026-04-29T12:43:18 PST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:18 PST" name="launchBrowser" finished-at="2026-04-29T12:43:19 PST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testCase1(java.lang.String)[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:19 PST" name="testCase1" data-provider="getDiscountData" finished-at="2026-04-29T12:43:22 PST" duration-ms="2762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unaccompanied Minor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Testing@441772e]" started-at="2026-04-29T12:43:22 PST" name="tearDown" finished-at="2026-04-29T12:43:22 PST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
