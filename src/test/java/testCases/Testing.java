@@ -1,7 +1,10 @@
 package testCases;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,9 +23,10 @@ import pageObject.LandingPage;
 import pageObject.TripPage;
 
 public class Testing extends BasePage {
+	
 
 	@Test (dataProvider = "getDiscountData", groups = {"Regression"})
-	public void testCase1(String dType) {
+	public void testCase1(String dType) throws IOException {
 
 		landingpage.gotoWebsite();
 		TripPage trippage = landingpage.selectDiscount(dType);
@@ -32,7 +36,7 @@ public class Testing extends BasePage {
 	}
 
 	@Test (groups = {"Sanity"})
-	public void testCase2() {
+	public void testCase2() throws IOException {
 
 		landingpage.gotoWebsite();
 		TripPage trippage = new TripPage(driver);
@@ -41,7 +45,7 @@ public class Testing extends BasePage {
 	}
 
 	@Test (groups = {"Smoke"})
-	public void testCase3() {
+	public void testCase3() throws IOException {
 
 		landingpage.gotoWebsite();
 		CurrencyPage currencypage = new CurrencyPage(driver);
@@ -109,3 +113,4 @@ public class Testing extends BasePage {
 
 
 }
+

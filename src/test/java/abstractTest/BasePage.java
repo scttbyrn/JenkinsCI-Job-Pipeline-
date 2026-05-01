@@ -25,7 +25,7 @@ public class BasePage {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "//src//main//java//resources//GlobalData.properties");
 		properties.load(fis);
 		
-		String browserName = System.getProperty("browser") !=null ? System.getProperty("browser") : properties.getProperty("browser"); //set the browser environment in mvn 
+		String browserName = System.getProperty("browser") !=null ? System.getProperty("browser") : properties.getProperty("browser"); //set the browser environment in mvn using Ternary operator 
 		
 //		String browserName = properties.getProperty("browser"); //set the browser environment locally
 		

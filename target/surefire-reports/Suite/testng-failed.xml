@@ -4,15 +4,15 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <groups>
       <run>
-        <include name="Sanity"/>
+        <include name="Regression"/>
       </run>
     </groups>
     <classes>
       <class name="testCases.Testing">
         <methods>
           <include name="tearDown"/>
+          <include name="testCase1" invocation-numbers="0 1 2 3 4"/>
           <include name="launchBrowser"/>
-          <include name="testCase2"/>
         </methods>
       </class> <!-- testCases.Testing -->
     </classes>
