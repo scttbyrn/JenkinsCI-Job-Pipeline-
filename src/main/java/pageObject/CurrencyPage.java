@@ -21,7 +21,7 @@ public class CurrencyPage extends ReuseableMethods {
 		
 		//Select Currency:
 
-		WebElement currency = driver.findElement(By.xpath("//select[@id = 'ctl00_mainContent_DropDownListCurrencysss']"));
+		WebElement currency = driver.findElement(By.xpath("//select[@id = 'ctl00_mainContent_DropDownListCurrency']"));
 
 		Select select = new Select(currency);
 
